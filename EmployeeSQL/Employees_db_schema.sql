@@ -1,4 +1,4 @@
--- Data modeling
+-- Data Engineering
 DROP TABLE IF EXISTS departments CASCADE;
 DROP TABLE IF EXISTS employees CASCADE;
 DROP TABLE IF EXISTS dept_emp CASCADE;
