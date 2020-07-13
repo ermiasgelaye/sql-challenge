@@ -1,4 +1,4 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# Employee Database -SQL: A Mystery in Two Parts
 
 ![Sql](EmployeeSQL/Images/postsql.gif)
 
