@@ -25,9 +25,15 @@ By using the available information a table schema for each of the six CSV files 
 Click the following link to see the actual code file [Employees_db_schema.sql](EmployeeSQL/Employees_db_schema.sql) 
 
 ## 3. Data Analysis
-After completly importing 
+After completing the importing process the following analysis performed: 
 
-1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+1. List the following details of each employee: employee number, last name, first name, sex, and salary
+```--1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary
+FROM employees
+JOIN salaries
+ON employees.emp_no = salaries.emp_no;
+   ```
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
 
