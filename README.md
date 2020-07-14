@@ -123,7 +123,6 @@ REFERENCES "employees" ("emp_no");
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
 
-
 -- Query * FROM Each Table Confirming Data
 SELECT * FROM departments;
 SELECT * FROM titles;
