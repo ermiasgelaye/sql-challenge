@@ -8,19 +8,12 @@ This repository discusses a research project on the employee database at  Pewlet
 
 On this project,  a table was created that holds employees data in the CSVs, import the CSVs into a SQL database, and the data exploration was conducted to answering the research questions, and discussed in the following parts:
 
-## 1. Data Engineering
+## 1. Data Modeling
 To model the employee data a  basic data modeling technique called  Entity-Relationship Diagrams (ERD) was used. By using this technique six employee database entities or tables are identified, these entities are employees, departments, salaries, titles, department managers, and department employees. The attribute or the data type of the entities also presented. At last, the ER diagram was drawn to visualize the relationships between entities/objects (primary key or foreign keys in a database). To read the detailed description of the employee database click the following PDF file. [Employees_db_modeling.pdf](EmployeeSQL/ERD/Employees_db_modeling.pdf)
 
 The ER diagram also looks as follows: ![ERD](EmployeeSQL/ERD/Employees_db_ERD.png)
 
-3. Data Analysis
-
-
-#### Data Modeling
-
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
-
-#### Data Engineering
+## 2. Data Engineering
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
@@ -29,7 +22,7 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 
 * Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
-#### Data Analysis
+## 3. Data Analysis
 
 Once you have a complete database, do the following:
 
