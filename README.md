@@ -136,7 +136,7 @@ In order to test, and validate the dataset in this part a python code created on
 
 ## Epilogue
 
-In this part I provide an evidence for any one who asked me to "Search my Id" from the database, my employee ID number is 499942 and It looks as follows the search result in pandas. I think You said the Old data anlayst :smile: don't woory this is not my age 
+In this part I provide an evidence for any one who asked to "Search an Id" from the database, for example let seacrh employee ID number 499942 and It looks as follows the search result in pandas. :smile: 
 
 <table border="1" class="dataframe">
   <thead>
