@@ -4,29 +4,17 @@
 
 ## Background
 
-It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+This repository discusses a research project on the employee database at  Pewlett Hackard Corporation from the 1980s and 1990s. All that remains of the database of employees from that period is in six CSV files.
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+On this project,  a table was created that holds employees data in the CSVs, import the CSVs into a SQL database, and the data exploration was conducted to answering the research questions, and discussed in the following parts:
 
-1. Data Engineering
+## 1. Data Engineering
+To model the employee data a  basic data modeling technique called  Entity-Relationship Diagrams (ERD) was used. By using this technique six employee database entities or tables are identified, these entities are employees, departments, salaries, titles, department managers, and department employees. The attribute or the data type of the entities also presented. At last, the ER diagram was drawn to visualize the relationships between entities/objects (primary key or foreign keys in a database). To read the detailed description of the employee database click the following PDF file. [Employees_db_modeling.pdf](EmployeeSQL/ERD/Employees_db_modeling.pdf)
+
+The ER diagram also looks as follows: ![ERD](EmployeeSQL/ERD/Employees_db_ERD.png)
 
 3. Data Analysis
 
-Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
-
-### Before You Begin
-
-1. Create a new repository for this project called `sql-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: **EmployeeSQL**.
-
-4. Add your files to this folder.
-
-5. Push the above changes to GitHub.
-
-## Instructions
 
 #### Data Modeling
 
