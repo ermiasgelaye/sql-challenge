@@ -18,7 +18,9 @@ The ER diagram also looks as follows:
 
 ## 2. Data Engineering
 
-By using the available information a table schema for each of the six CSV files was created, and the data types, primary keys, foreign keys, and constraints also developed. The order of the table is based on the primary, and foreign arrangements, **Note** to import each  CSV file into the corresponding SQL table the order strictly should be followed to avoid errors. 
+By using the available information a table schema for each of the six CSV files was created, and the data types, primary keys, foreign keys, and constraints also developed. The order of the table is based on the primary, and foreign arrangements. 
+
+**Note** to import each  CSV file into the corresponding SQL table the order strictly should be followed to avoid errors. 
 
 Click the following link to see the code file [Employees_db_schema.sql](EmployeeSQL/Employees_db_schema.sql) 
 
