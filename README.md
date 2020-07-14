@@ -134,7 +134,7 @@ In order to test, and validate the dataset in this part a python code created on
 ## A bar chart of average salary by title
 ![Bar chart](EmployeeSQL/Images/average_salary_by_title.png)
 
-## Epilogue
+## Epilogue(Searching somone ID by using ID number)
 
 In this part I provide an evidence for any one who asked to "Search an Id" from the database, for example let seacrh employee ID number 499942 and It looks as follows the search result in pandas. :smile: 
 
