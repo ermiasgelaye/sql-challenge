@@ -138,7 +138,7 @@ In order to test, and validate the dataset in this part a python code created on
 
 In this part I provide an evidence for any one who asked to "Search an Id" from the database, for example let seacrh employee ID number 499942 and It looks as follows the search result in pandas. 
 
-## :smile:  who is fool ?  :laughing:
+## :smile:  Who is fool ?  :laughing:
 
 <table border="1" class="dataframe">
   <thead>
