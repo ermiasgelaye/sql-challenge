@@ -1,4 +1,8 @@
--- Data Engineering
+-- =============================================================
+-- Employee Database: Schema (PostgreSQL)
+-- Import CSVs in this order: departments, titles, employees,
+-- dept_emp, dept_manager, salaries
+-- =============================================================
 DROP TABLE IF EXISTS departments CASCADE;
 DROP TABLE IF EXISTS employees CASCADE;
 DROP TABLE IF EXISTS dept_emp CASCADE;
@@ -8,7 +12,7 @@ DROP TABLE IF EXISTS titles CASCADE;
 
 CREATE TABLE "departments" (
     -- Department number is a primary key, and it is
-    -- aslo found in department employees and department manager list
+    -- also found in department employees and department manager list
     "dept_no" VARCHAR   NOT NULL,
     -- Department names
     "dept_name" VARCHAR   NOT NULL,
@@ -62,11 +66,11 @@ CREATE TABLE "dept_emp" (
 );
 
 CREATE TABLE "dept_manager" (
-    -- Department number in department manger list and
+    -- Department number in department manager list and
     -- which shared a unique key with dept_emp(dept_no)
     "dept_no" VARCHAR   NOT NULL,
-    -- Employees number in department manger list and
-    -- which  shared a unique key with employees(emp_no)
+    -- Employees number in department manager list and
+    -- which shared a unique key with employees(emp_no)
     "emp_no" INT   NOT NULL
 );
 
@@ -95,11 +99,3 @@ REFERENCES "employees" ("emp_no");
 
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
-
--- Viewing the tables 
-SELECT * FROM departments;
-SELECT * FROM titles;	
-SELECT * FROM employees;	
-SELECT * FROM dept_emp;
-SELECT * FROM dept_manager;	
-SELECT * FROM salaries;
